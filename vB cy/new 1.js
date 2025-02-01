@@ -23,7 +23,7 @@ case 'cav': return "cavalry"; break;
 case 'dec': return "declaration"; break;
 }
 }
-setInterval(lol,2000)
+setInterval(lol,1250)
 setTimeout(function(){document.querySelector('#bee_complete > div.actions > button').click()},5000)
 window.confirm=function(){return true;}
 //This doesn't work so we need to add this below : 
